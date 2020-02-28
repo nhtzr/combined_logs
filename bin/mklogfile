@@ -12,7 +12,7 @@ main () {
   done
 }
 
-if test "$0" = "$BASH_SOURCE"; then
+if test "$0" = "${BASH_SOURCE[0]}"; then
   main "$@"
 fi
 
